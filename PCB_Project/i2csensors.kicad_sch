@@ -1,0 +1,25 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 457ff085-af98-41ed-97f5-8a7af65d740b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (global_label "I2C_SDA" (shape input) (at 146.05 71.755 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 29d7d0e7-614b-43e8-bd2c-37828ce858d6)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 156.5758 71.755 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "I2C_SCL" (shape input) (at 146.05 78.105 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 433bb793-745b-47e6-9fd5-e73f0b7992d7)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 156.5153 78.105 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+)

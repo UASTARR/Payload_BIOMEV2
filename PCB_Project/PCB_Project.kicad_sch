@@ -1,0 +1,80 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3dbd20c6-0b48-4a74-89bd-dd4c54711bfb)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (global_label "I2C_SCL" (shape input) (at 85.09 70.485 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1638e42c-ebd6-4b63-9e42-04c604476a28)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 95.5553 70.485 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "I2C_SDA" (shape input) (at 85.09 64.135 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 31e65416-c636-4859-b9c8-36afdd79e517)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 95.6158 64.135 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+
+  (sheet (at 52.705 52.07) (size 32.385 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1ccf5c87-aea1-46d5-9874-6b9c3decc43f)
+    (property "Sheetname" "I2C_Sensors" (at 52.705 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "i2csensors.kicad_sch" (at 52.705 82.4996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BIOME_V2"
+        (path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 159.385 52.07) (size 32.385 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8bc0df3c-ce7a-49b1-846c-8bbeab3041e5)
+    (property "Sheetname" "SPI_Sensors" (at 159.385 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "spiSensors.kicad_sch" (at 159.385 82.4996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BIOME_V2"
+        (path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 118.11 97.155) (size 32.385 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c1270458-3028-4230-aa43-c8411af46874)
+    (property "Sheetname" "Power_Management" (at 118.11 96.4434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_management.kicad_sch" (at 118.11 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BIOME_V2"
+        (path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
