@@ -12,7 +12,5 @@
   - SGP41-D-R4
   - ADT7410TRZ
   - OXYGEN SENSORS
-- Raspberry Board Layout
-- SPI
-- Power Dist
-- 
+- Power Distribution
+- Connecting SPI and Power
