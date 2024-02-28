@@ -7,10 +7,9 @@
 ## TO-DO
 
 - I2C
-  - LIS3MDLTR
-  - ELVH-015A-HNNJ-C-N2A4
-  - SGP41-D-R4
+  - HDC3021QDEHRQ1
   - ADT7410TRZ
-  - OXYGEN SENSORS
+- UART
+  - ZE27-O3
 - Power Distribution
 - Connecting SPI and Power
