@@ -256,7 +256,7 @@
     (pin "36" (uuid dd96f1bc-bf90-4801-a307-b2e0dbdd8518))
     (pin "37" (uuid 727b2573-dfd4-4b17-8c2b-2694a90df25e))
     (pin "38" (uuid 4dc6b8ec-a505-4271-95b4-eaf3a1859d44))
-    (pin "38" (uuid 4dc6b8ec-a505-4271-95b4-eaf3a1859d44))
+    (pin "38" (uuid 4dc6b8ec-a505-4271-95b4-eaf3a1859d45))
     (pin "39" (uuid f780e393-1759-4dbb-a298-74bd2a41f296))
     (pin "4" (uuid 7bb8d1cd-8419-4ec2-9883-2f64543fcd91))
     (pin "40" (uuid cd1dd290-2c58-4fcd-893f-3d4b83925160))
