@@ -481,6 +481,10 @@
       "SPI_Sensors"
     ],
     [
+      "8bf501f3-4a83-420c-953d-b9bdabd30bb8",
+      "motor_driver"
+    ],
+    [
       "c1270458-3028-4230-aa43-c8411af46874",
       "Power_Management"
     ]

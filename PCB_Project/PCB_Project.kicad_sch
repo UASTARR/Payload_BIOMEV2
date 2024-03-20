@@ -219,7 +219,7 @@
     (property "Value" "~" (at 120.65 26.035 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 26.035 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" (at 120.65 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 120.65 26.035 0)
@@ -255,8 +255,8 @@
     (pin "35" (uuid 548ed3ed-dca6-4c8f-85e3-fb1a62eb820d))
     (pin "36" (uuid dd96f1bc-bf90-4801-a307-b2e0dbdd8518))
     (pin "37" (uuid 727b2573-dfd4-4b17-8c2b-2694a90df25e))
-    (pin "38" (uuid 3328742a-a950-4b33-ad75-77f222623884))
-    (pin "38" (uuid 4dc6b8ec-a505-4271-95b4-eaf3a1859d43))
+    (pin "38" (uuid 4dc6b8ec-a505-4271-95b4-eaf3a1859d44))
+    (pin "38" (uuid 4dc6b8ec-a505-4271-95b4-eaf3a1859d45))
     (pin "39" (uuid f780e393-1759-4dbb-a298-74bd2a41f296))
     (pin "4" (uuid 7bb8d1cd-8419-4ec2-9883-2f64543fcd91))
     (pin "40" (uuid cd1dd290-2c58-4fcd-893f-3d4b83925160))
@@ -304,6 +304,23 @@
     (instances
       (project "PCB_Project"
         (path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 46.99 116.84) (size 35.56 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8bf501f3-4a83-420c-953d-b9bdabd30bb8)
+    (property "Sheetname" "motor_driver" (at 46.99 116.1284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "motor_driver.kicad_sch" (at 46.99 147.9046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB_Project"
+        (path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb" (page "5"))
       )
     )
   )
