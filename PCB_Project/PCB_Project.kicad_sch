@@ -1669,6 +1669,25 @@
 		)
 		(uuid "65e32e39-0811-427b-aba4-828a9ea15d85")
 	)
+	(text_box "I missed pin 12"
+		(exclude_from_sim no)
+		(at 177.8 36.83 0)
+		(size 12.065 8.255)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "88ef4ce5-9106-44bc-8044-d4e69b91e3ed")
+	)
 	(global_label "I2C_SCL_M"
 		(shape input)
 		(at 56.515 74.93 0)
