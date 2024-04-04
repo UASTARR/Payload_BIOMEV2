@@ -2176,12 +2176,6 @@
 		(uuid "0b6f5ca9-a3b6-4f80-b2f1-bb29895c940a")
 	)
 	(junction
-		(at 148.59 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e63d58b-f38a-41cc-a6d8-4910fbede8a8")
-	)
-	(junction
 		(at 69.85 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2423,6 +2417,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 72.39) (xy 115.57 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7bdd11-b756-47c2-b117-81ebc46ce96e")
+	)
+	(wire
+		(pts
 			(xy 182.88 115.57) (xy 166.37 115.57)
 		)
 		(stroke
@@ -2440,26 +2444,6 @@
 			(type default)
 		)
 		(uuid "46019b54-982c-4b13-ae78-4ef67c1e8002")
-	)
-	(wire
-		(pts
-			(xy 158.75 64.77) (xy 215.9 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c0d81b1-8434-4486-a160-c5382b79f4d4")
-	)
-	(wire
-		(pts
-			(xy 148.59 72.39) (xy 158.75 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5784b1c1-e566-457e-9845-935d158c28a3")
 	)
 	(wire
 		(pts
@@ -2490,6 +2474,16 @@
 			(type default)
 		)
 		(uuid "600806b8-81e1-4432-b3d6-3f0a150c8cb3")
+	)
+	(wire
+		(pts
+			(xy 115.57 69.85) (xy 129.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63635720-0c9b-4c8e-85fd-48751f713c8f")
 	)
 	(wire
 		(pts
@@ -2540,6 +2534,16 @@
 			(type default)
 		)
 		(uuid "75cc2440-2508-4326-973f-fce44bb52755")
+	)
+	(wire
+		(pts
+			(xy 129.54 62.23) (xy 217.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca2e4f6-ab6e-4012-88cf-e7932c6ebb10")
 	)
 	(wire
 		(pts
@@ -2610,16 +2614,6 @@
 			(type default)
 		)
 		(uuid "8bd82538-6379-47f1-9960-ebdb4392fd66")
-	)
-	(wire
-		(pts
-			(xy 115.57 72.39) (xy 148.59 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "913fa7d3-396b-47f8-8c46-78959a246345")
 	)
 	(wire
 		(pts
@@ -2713,6 +2707,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 69.85) (xy 129.54 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5dc3b3d-2e08-445b-b56c-b749c29df20c")
+	)
+	(wire
+		(pts
 			(xy 74.93 86.36) (xy 92.71 86.36)
 		)
 		(stroke
@@ -2723,23 +2727,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 72.39) (xy 158.75 64.77)
+			(xy 130.81 64.77) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd851d7d-13db-4c30-b9cc-413193f51833")
-	)
-	(wire
-		(pts
-			(xy 115.57 69.85) (xy 156.21 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c36b7ce0-a5b1-4426-8904-e1c99b2eb9ec")
+		(uuid "c0ec41da-0248-4497-ae18-9fa12aec865d")
 	)
 	(wire
 		(pts
@@ -2773,16 +2767,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 62.23) (xy 217.17 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3578214-6425-4ad0-931f-dfe276a1933b")
-	)
-	(wire
-		(pts
 			(xy 69.85 90.17) (xy 76.2 90.17)
 		)
 		(stroke
@@ -2803,6 +2787,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 64.77) (xy 215.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d8068d-8eda-45ba-b173-11b5d83a74ef")
+	)
+	(wire
+		(pts
 			(xy 173.99 90.17) (xy 166.37 90.17)
 		)
 		(stroke
@@ -2820,16 +2814,6 @@
 			(type default)
 		)
 		(uuid "f5bf4b0e-cd4c-41f5-b6fd-7a478eac748c")
-	)
-	(wire
-		(pts
-			(xy 156.21 69.85) (xy 156.21 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe338f11-7d26-44b4-804d-9ecc4586d2b4")
 	)
 	(wire
 		(pts
@@ -3620,7 +3604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 74.93 71.12 0)
 			(effects
 				(font
@@ -4863,7 +4847,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 72.39 180)
+		(at 148.59 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4872,7 +4856,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3224760-74e5-47b7-a632-817f08acd4ec")
 		(property "Reference" "#PWR014"
-			(at 148.59 66.04 0)
+			(at 154.94 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,11 +4865,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 67.31 0)
+			(at 152.4 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
