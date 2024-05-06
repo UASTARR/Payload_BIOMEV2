@@ -586,10 +586,6 @@
     [
       "8bc0df3c-ce7a-49b1-846c-8bbeab3041e5",
       "SPI_Sensors"
-    ],
-    [
-      "c1270458-3028-4230-aa43-c8411af46874",
-      "Power_Management"
     ]
   ],
   "text_variables": {}

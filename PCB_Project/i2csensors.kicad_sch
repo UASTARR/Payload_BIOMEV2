@@ -1883,6 +1883,24 @@
 						)
 					)
 				)
+				(pin output line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "E_PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 		(symbol "sensors:LIS3MDL"
@@ -2880,6 +2898,16 @@
 			(type default)
 		)
 		(uuid "71a22e31-fc1f-4ce5-a19c-3c917aeb83c8")
+	)
+	(wire
+		(pts
+			(xy 252.73 120.65) (xy 255.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7342a07a-d646-4a3e-aee1-09806438d8f5")
 	)
 	(wire
 		(pts
@@ -4343,6 +4371,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 255.27 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14919c9a-7e3e-469b-8f31-37d99e310b7e")
+		(property "Reference" "#PWR09"
+			(at 261.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4707d497-5958-4981-bc8b-f743029609b5")
+		)
+		(instances
+			(project "PCB_Project"
+				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/1ccf5c87-aea1-46d5-9874-6b9c3decc43f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 52.07 58.42 270)
 		(unit 1)
@@ -5373,6 +5468,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" ""
+			(at 58.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48b9ef1b-a03b-4a4e-9eab-b6e6d5b16ac9")
 		)
@@ -5482,6 +5586,9 @@
 		)
 		(pin "8"
 			(uuid "dcf4e22b-f734-4eea-9e2d-b031c0c7b70b")
+		)
+		(pin "9"
+			(uuid "a5903392-b99d-4421-84e4-18314b5c7e09")
 		)
 		(instances
 			(project "PCB_Project"
@@ -5720,7 +5827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
 			(at 85.09 165.1 0)
 			(effects
 				(font
