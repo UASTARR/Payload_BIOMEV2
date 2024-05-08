@@ -28,3 +28,4 @@ fp-info-cache
 *.xml
 *.csv
 *.DS_Store
+PCB_Project/~PCB_Project.kicad_sch.lck
