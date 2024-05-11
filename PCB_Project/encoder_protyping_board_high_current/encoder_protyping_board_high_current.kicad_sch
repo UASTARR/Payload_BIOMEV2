@@ -2437,6 +2437,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 76.2) (xy 92.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444bcd28-61bf-4490-8e67-daf3d6f2b9f8")
+	)
+	(wire
+		(pts
 			(xy 180.34 87.63) (xy 204.47 87.63)
 		)
 		(stroke
@@ -3009,7 +3019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10db1f87-ca20-4e06-86f4-647f4dd4d680")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 45.72 60.96 0)
 			(effects
 				(font
@@ -3063,7 +3073,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3079,7 +3089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1902cdb3-6dd4-470e-82ad-ab56282b5658")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 72.39 59.69 90)
 			(effects
 				(font
@@ -3136,7 +3146,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -3152,7 +3162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d4dc550-9b0e-4458-bba9-9f0b3f3e0c5d")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 32.385 60.96 0)
 			(effects
 				(font
@@ -3204,7 +3214,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3220,7 +3230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25d21618-38ee-45af-bf66-480346bd8dc7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR015"
 			(at 152.4 110.49 0)
 			(effects
 				(font
@@ -3271,7 +3281,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR03")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3357,7 +3367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38f2df4d-93c0-4a2a-90bf-e6ecd7564ac6")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 89.535 34.29 0)
 			(effects
 				(font
@@ -3415,7 +3425,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3431,7 +3441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cb27500-945e-414a-9c18-b21ac3f35c99")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 212.09 90.1699 0)
 			(effects
 				(font
@@ -3503,7 +3513,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3519,7 +3529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4710bb9f-c527-47cd-8d37-1e63abd79c9e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR010"
 			(at 90.17 44.45 0)
 			(effects
 				(font
@@ -3570,7 +3580,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR05")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3586,7 +3596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a4601e0-a330-4d1b-a8e7-f1d10cd5692e")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 72.39 69.85 90)
 			(effects
 				(font
@@ -3643,7 +3653,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -3659,7 +3669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "642e9219-0eac-4f1c-bb78-d8fe17a17683")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR017"
 			(at 172.72 110.49 0)
 			(effects
 				(font
@@ -3710,7 +3720,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR011")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3726,7 +3736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66072c4b-8a93-47fd-9569-9359665de40f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR09"
 			(at 100.33 41.91 0)
 			(effects
 				(font
@@ -3777,7 +3787,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR018")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3793,7 +3803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76680e96-c8b0-480e-89f3-5e7655bb1cde")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR07"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -3844,7 +3854,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR015")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4091,7 +4101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cdd0fc2-08e3-4c97-b227-62b6e27a25ec")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR019"
 			(at 198.12 100.33 0)
 			(effects
 				(font
@@ -4142,7 +4152,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4228,7 +4238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5fec360-3809-4849-8da9-75ef404ec5c0")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 152.4 80.01 0)
 			(effects
 				(font
@@ -4279,7 +4289,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4295,7 +4305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab60ae9b-b2d4-40d2-9498-b446691d8a28")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 148.59 96.52 0)
 			(effects
 				(font
@@ -4345,7 +4355,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4452,7 +4462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b180fc27-46f6-4ab5-a939-4708b27f34e8")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -4503,7 +4513,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4519,7 +4529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4696dbc-7b38-4209-83c4-91449a014b79")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 43.18 72.39 0)
 			(effects
 				(font
@@ -4569,7 +4579,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4585,7 +4595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e546cb-aa5d-4e40-8fc2-89bbf7c9207a")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR05"
 			(at 76.2 104.14 0)
 			(effects
 				(font
@@ -4635,7 +4645,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR016")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4651,7 +4661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2c77080-4042-437b-939c-68d468f2248c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR011"
 			(at 90.17 46.99 0)
 			(effects
 				(font
@@ -4702,7 +4712,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR019")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4718,7 +4728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c64c5f02-3a97-47cf-82b2-efdbd7a93e22")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR018"
 			(at 208.28 92.71 0)
 			(effects
 				(font
@@ -4769,7 +4779,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR04")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4785,7 +4795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caa6c25f-0484-418a-b346-d1af9432fa01")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 45.72 71.12 0)
 			(effects
 				(font
@@ -4839,7 +4849,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4855,7 +4865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3224760-74e5-47b7-a632-817f08acd4ec")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 154.94 72.39 0)
 			(effects
 				(font
@@ -4906,7 +4916,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5032,7 +5042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5fb2703-0ee7-4a77-b42c-0463875c8f07")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR01"
 			(at 43.18 62.23 0)
 			(effects
 				(font
@@ -5082,7 +5092,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR08")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5090,7 +5100,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 85.09 76.2 90)
+		(at 83.82 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5098,8 +5108,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7edf17d-6d25-427f-8f74-bde9cbbb32bf")
-		(property "Reference" "#PWR02"
-			(at 88.9 76.2 0)
+		(property "Reference" "#PWR06"
+			(at 87.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5118,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 81.28 76.2 90)
+			(at 80.01 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 76.2 0)
+			(at 83.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 76.2 0)
+			(at 83.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5145,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 76.2 0)
+			(at 83.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5159,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR02")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5165,7 +5175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eedbba8c-abd4-4d95-a65e-3179cfbe0c3d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR04"
 			(at 69.85 104.14 0)
 			(effects
 				(font
@@ -5215,7 +5225,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5223,7 +5233,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 76.2 90)
+		(at 87.63 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5231,8 +5241,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4412899-ba0b-479e-91bd-5aa038783e4a")
-		(property "Reference" "R1"
-			(at 88.9 80.01 90)
+		(property "Reference" "R3"
+			(at 87.63 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5250,7 @@
 			)
 		)
 		(property "Value" "1.2k"
-			(at 88.9 82.55 90)
+			(at 87.63 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5258,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 77.978 90)
+			(at 87.63 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 76.2 0)
+			(at 87.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 76.2 0)
+			(at 87.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,7 +5293,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5299,7 +5309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7c2790c-3cc3-48bd-95c5-735c50c1117c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 69.85 90.17 0)
 			(effects
 				(font
@@ -5350,7 +5360,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5366,7 +5376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb61dcfb-93d6-40b5-b380-f90d83d8e853")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 90.17 39.37 0)
 			(effects
 				(font
@@ -5417,7 +5427,7 @@
 		(instances
 			(project "encoder_protyping_board_high_current"
 				(path "/216c1417-8a2a-4718-9426-b99cd58fdcbb"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
