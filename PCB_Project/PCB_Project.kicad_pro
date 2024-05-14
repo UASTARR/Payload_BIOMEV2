@@ -481,7 +481,7 @@
       "idf": "",
       "netlist": "",
       "plot": "sensor_board_gerbers/",
-      "pos_files": "",
+      "pos_files": "sensor_board_gerbers/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
