@@ -20,7 +20,7 @@ from machine import Pin, I2C
 i2c = I2C(0, scl=Pin(9), sda=Pin(8), freq=10000000)
 
 def getAddress():
-    address = int(input("what is the hex address of the board: 0x"),16)
+    address = int(input("What is the hex address of the board: 0x"),16)
     return address
 
 def getAction():
@@ -32,8 +32,11 @@ def getAction():
             print("Invalid entry.")
 
 def writeRegister(address):
-    register = int(input("what register: 0x"),16)
-
+    register = int(input("What register: 0x"),16)
+    print("              76543210")
+    value = int(input("What value: 0b"),2)
+    output=register.to_bytes(1,"big")+value.to_bytes(1,"big")
+    i2c.writeto(address, output)
 
 def main():
     address = getAddress()
@@ -47,6 +50,6 @@ def main():
         elif action == "q":
             quit = True
 
-    print("for your sake I hope this worked better this time")
+    print("For your sake I hope this worked better this time")
 
 main()
