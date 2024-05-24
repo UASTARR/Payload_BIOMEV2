@@ -25,8 +25,8 @@ def getAddress():
 
 def getAction():
     while True:
-        action = input("Enter n for new adress, w for write to register, q for quit: ")
-        if action in ["n", "q", "w"]:
+        action = input("Enter n for new adress, w for write to register, s for bus stop (this is execute all the set register values), q for quit: ")
+        if action in ["n", "q", "w", "s"]:
             return action
         else:
             print("Invalid entry.")
@@ -36,7 +36,10 @@ def writeRegister(address):
     print("              76543210")
     value = int(input("What value: 0b"),2)
     output=register.to_bytes(1,"big")+value.to_bytes(1,"big")
-    i2c.writeto(address, output)
+    i2c.writeto(address, output, False)
+
+def stopBus():
+    i2c.stop()
 
 def main():
     address = getAddress()
@@ -47,6 +50,8 @@ def main():
             address = getAddress()
         elif action == "w":
             writeRegister(address)
+        elif action == "s":
+            stopBus()
         elif action == "q":
             quit = True
 
