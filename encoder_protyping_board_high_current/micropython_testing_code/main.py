@@ -19,17 +19,9 @@
 from machine import Pin, I2C
 i2c = I2C(0, scl=Pin(9), sda=Pin(8), freq=10000000)
 
-def getAddress():
+def setAddress():
     address = int(input("What is the hex address of the board: 0x"),16)
     return address
-
-def getAction():
-    while True:
-        action = input("Enter n for new adress, w for write to register, ws for write to register with stop, s for bus stop (this is execute all the set register values), r for read register, q for quit: ")
-        if action in ["n", "q", "w", "s", "ws","r"]:
-            return action
-        else:
-            print("Invalid entry.")
 
 def writeRegister(address, stop):
     register = int(input("What register: 0x"),16)
@@ -41,28 +33,39 @@ def writeRegister(address, stop):
 def stopBus():
     i2c.stop()
 
-def readRegister(address):
+def busScan():
+    print(i2c.scan())
+
+def readRegister(address, stop):
     register = int(input("What register: 0x"),16)
-    i2c.writeto(address,register,False)
+    i2c.writeto(address,register, stop)
     value = i2c.readfrom(address+1,1)
     print(value)
 
+def getAction():
+    while True:
+        action = input("Enter action:\n'scan' to scan the i2c bus\n'addr' to set i2c address\n'write' to write to a register\n"+
+                       "'read' to read from a register\n'go' to send i2c stop signal (executes current state of registers)\n'quit' to well quit\n:")
+        if action in ["addr", "quit", "write", "scan", "go", "read"]:
+            return action
+        else:
+            print("Invalid entry.")
+
 def main():
-    address = getAddress()
     quit = False
     while not quit:
         action = getAction()
-        if action == "n":
-            address = getAddress()
-        elif action == "w":
+        if action == "addr":
+            address = setAddress()
+        elif action == "write":
             writeRegister(address, False)
-        elif action == "ws":
-            writeRegister(address, True)
-        elif action == "s":
+        elif action == "go":
             stopBus()
-        elif action == "r":
-            readRegister(address)
-        elif action == "q":
+        elif action == "read":
+            readRegister(address, False)
+        elif action == "scan":
+            busScan()
+        elif action == "quit":
             quit = True
 
     print("For your sake I hope this worked better this time")
