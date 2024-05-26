@@ -1,0 +1,23 @@
+system config
+    00h mode register, only slightly care
+    0Bh Output Port Configuration and Phase control, I think I might need this
+
+interrupt based motor control
+    04h int mode, should be fine with stock values
+    05h mask interrupt, bits 1 and 0 but be changed to 0 for the respective I/O pins to send interrupts
+    08h interrupt based motor control, this is the big one and 6 of the 8 bits matter
+    09h lets me add some extra motor steps after intP0
+    0Ah lets me add some extra motor steps after intP1
+
+non interropt based control
+    12h and 13h number of clockwise steps, 16 bit value
+    14h and 15h number of counter-clockwise steps, 16 bit value
+    16h and 17h clockwise step pulse width, lets us set the motor speed
+    18h and 19h counter-clockwise step pulse width, lets us set the speed
+    1Ah Motor control register, this is where we tell it to start and stop the motor and which way to turn
+
+Testing and debugging only
+    03h I/O config, only care about this for debugging my code and not final motor control
+    06h int status, read only but I will want to work with this during systems testing
+    07h input port, read only but will let me check the state
+    1Fh, 20h, 21h, and 22h step counter, a 32 bit read only counter that clears after read telling you how many steps the motor has taken
