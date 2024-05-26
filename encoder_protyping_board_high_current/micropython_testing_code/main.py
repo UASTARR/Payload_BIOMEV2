@@ -26,7 +26,7 @@ def getAddress():
 def getAction():
     while True:
         action = input("Enter n for new adress, w for write to register, ws for write to register with stop, s for bus stop (this is execute all the set register values), r for read register, q for quit: ")
-        if action in ["n", "q", "w", "s", "ws"]:
+        if action in ["n", "q", "w", "s", "ws","r"]:
             return action
         else:
             print("Invalid entry.")
