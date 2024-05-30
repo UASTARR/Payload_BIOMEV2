@@ -599,6 +599,14 @@
     [
       "8bc0df3c-ce7a-49b1-846c-8bbeab3041e5",
       "SPI_Sensors"
+    ],
+    [
+      "ce2befff-aaab-49bd-9147-5babe9fc5ad7",
+      "Power Management"
+    ],
+    [
+      "0ea23118-6dab-4db3-8fa4-d381e9c9cbfe",
+      "Level Shifters"
     ]
   ],
   "text_variables": {}
