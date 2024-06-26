@@ -948,7 +948,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 100.33) (xy 191.77 100.33)
+			(xy 187.96 100.33) (xy 200.66 100.33)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +958,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 95.25) (xy 181.61 95.25)
+			(xy 187.96 95.25) (xy 190.5 95.25)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +968,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 102.87) (xy 181.61 102.87)
+			(xy 187.96 102.87) (xy 190.5 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1008,7 +1008,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 97.79) (xy 191.77 97.79)
+			(xy 187.96 97.79) (xy 200.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1040,7 @@
 	)
 	(global_label "Pi_RX_5V"
 		(shape input)
-		(at 191.77 97.79 0)
+		(at 200.66 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1050,7 +1050,7 @@
 		)
 		(uuid "38610245-3b3e-4dc6-8224-f4d60ba61811")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.3428 97.79 0)
+			(at 212.2328 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1084,7 +1084,7 @@
 	)
 	(global_label "Pi_TX_5V"
 		(shape input)
-		(at 191.77 100.33 0)
+		(at 200.66 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1094,7 +1094,7 @@
 		)
 		(uuid "8b258c13-3a81-4efb-99e6-682d2cd88fc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.0404 100.33 0)
+			(at 211.9304 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01d88921-c765-49f4-b957-da033e40985f")
-		(property "Reference" "R23"
+		(property "Reference" "R16"
 			(at 135.89 78.7399 0)
 			(effects
 				(font
@@ -1212,7 +1212,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "R23")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1220,7 +1220,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 181.61 95.25 270)
+		(at 190.5 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1228,8 +1228,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02794045-7917-46c2-aefc-b726062ad52a")
-		(property "Reference" "#PWR061"
-			(at 177.8 95.25 0)
+		(property "Reference" "#PWR063"
+			(at 186.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1238,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 185.42 95.2499 90)
+			(at 194.31 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 95.25 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 95.25 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 181.61 95.25 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1279,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1287,7 +1287,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 102.87 90)
+		(at 190.5 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1295,8 +1295,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a8c370d-9403-4eae-ab91-8c59c1a17c48")
-		(property "Reference" "#PWR062"
-			(at 187.96 102.87 0)
+		(property "Reference" "#PWR065"
+			(at 196.85 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,7 +1305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 102.8699 90)
+			(at 194.31 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 102.87 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 102.87 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 102.87 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1346,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1362,7 +1362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2464d25c-b648-4e2c-b1b5-bac5b3d61784")
-		(property "Reference" "R22"
+		(property "Reference" "R15"
 			(at 115.57 78.7399 0)
 			(effects
 				(font
@@ -1416,7 +1416,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "R22")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1490,7 +1490,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 173.99 100.33 0)
+		(at 182.88 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1498,8 +1498,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "446f9c9c-13c7-4865-a89d-662f35104c5a")
-		(property "Reference" "J2"
-			(at 174.625 90.17 0)
+		(property "Reference" "J10"
+			(at 183.515 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1507,7 @@
 			)
 		)
 		(property "Value" "ZE27-O3"
-			(at 174.625 92.71 0)
+			(at 183.515 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1515,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical"
-			(at 173.99 100.33 0)
+			(at 182.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 100.33 0)
+			(at 182.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1533,7 @@
 			)
 		)
 		(property "Description" "ZE27-O3"
-			(at 174.244 88.646 0)
+			(at 183.134 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1559,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "J2")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1575,7 +1575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f17d08-9fba-47a9-a191-1d1147e4c250")
-		(property "Reference" "R25"
+		(property "Reference" "R18"
 			(at 101.6 90.17 90)
 			(effects
 				(font
@@ -1627,7 +1627,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "R25")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1719,7 +1719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c3fef74-89dd-4d7c-8bc7-2880b6a74093")
-		(property "Reference" "R27"
+		(property "Reference" "R20"
 			(at 127 120.65 90)
 			(effects
 				(font
@@ -1771,7 +1771,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "R27")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1787,7 +1787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84682a87-2aac-493c-bbab-246fabcb372d")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR064"
 			(at 113.03 107.95 0)
 			(effects
 				(font
@@ -1837,7 +1837,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "#PWR065")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1853,7 +1853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae8b3925-2bf0-49ca-a1bc-a78818dea46f")
-		(property "Reference" "R26"
+		(property "Reference" "R19"
 			(at 116.84 120.65 90)
 			(effects
 				(font
@@ -1905,7 +1905,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "R26")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1921,7 +1921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b939940c-d084-493f-98fd-f632e14ae866")
-		(property "Reference" "R24"
+		(property "Reference" "R17"
 			(at 121.92 85.09 90)
 			(effects
 				(font
@@ -1973,7 +1973,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "R24")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2065,7 +2065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de4ec5a4-49dc-4e23-91a6-679a899451f2")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR062"
 			(at 113.03 78.74 0)
 			(effects
 				(font
@@ -2115,7 +2115,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/3dbd20c6-0b48-4a74-89bd-dd4c54711bfb/0ea23118-6dab-4db3-8fa4-d381e9c9cbfe"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
