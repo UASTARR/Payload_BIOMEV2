@@ -1307,6 +1307,25 @@
 		)
 		(uuid "fef12b63-8631-43ee-a45d-2c9bd7c15b19")
 	)
+	(text_box "high freq ceramic for C's"
+		(exclude_from_sim no)
+		(at 149.86 116.84 0)
+		(size 27.94 3.175)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d2546538-462e-4291-aaca-7dc17d8814b1")
+	)
 	(text "BMI088 Accelerometer and Gyroscope"
 		(exclude_from_sim no)
 		(at 147.828 47.498 0)
